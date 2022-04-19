@@ -2,8 +2,9 @@
     --c1: #181613;
     --c2: #49111c;
     --c3: #f2f4f3;
-    --c4: #dbd0c2;
+    --c4: #eee8e1;
     --c5: #5e503f;
+    --c6: #d3c9bd;
 
 }
 
@@ -24,12 +25,12 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: var(--bcg3);
+    background: var(--c2);
     border-radius: 5px;
 }
 
 body::-webkit-scrollbar-track {
-    background: var(--bgc1);
+    background: var(--c1);
 }
 
 .cus-navbar {
@@ -68,9 +69,20 @@ body::-webkit-scrollbar-track {
     background-size: cover;
 }
 
-.card {
+.cus-parallax-card {
+    background-color: var(--c6);
+}
+
+.parallaxCard {
     margin: 800px 0 0 0;
     border: 0;
     border-top: 3px solid var(--c2);
+}
 
+.experiencesBg {
+    background: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
