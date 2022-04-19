@@ -9,6 +9,27 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
+    color: var(--c5);
+}
+
+/* Adds smooth scrolling on the webpage instead of one that is staticky */
+html {
+    scroll-behavior: smooth;
+}
+
+/* body::-webkit-scrollbar adjusts the width of the scrollbar on the side of the screen and makes the track transparent. Thumb changes the color of the tab. */
+body::-webkit-scrollbar {
+    width: .3rem;
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--bcg3);
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--bgc1);
 }
 
 .cus-navbar {
@@ -33,5 +54,23 @@
 }
 
 .logo {
+    margin-left: 5%;
     width: 30px;
+}
+
+.parallaxImg {
+    background: linear-gradient(rgba(0, 0, 0, 0.3),
+            rgb(0, 0, 0, 0.3)),
+        url(../images/IMG_1077.JPG);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    margin: 800px 0 0 0;
+    border: 0;
+    border-top: 3px solid var(--c2);
+
 }
