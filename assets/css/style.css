@@ -9,8 +9,7 @@
 }
 
 * {
-    font-family: 'Montserrat', sans-serif;
-    color: var(--c5);
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 /* Adds smooth scrolling on the webpage instead of one that is staticky */
@@ -36,6 +35,7 @@ body::-webkit-scrollbar-track {
 .cus-navbar {
     background: var(--c1);
     border-bottom: 5px solid var(--c2);
+    color: var(--c5);
 }
 
 .cus-navbar-brand {
@@ -71,6 +71,7 @@ body::-webkit-scrollbar-track {
 
 .cus-parallax-card {
     background-color: var(--c6);
+    color: var(--c5);
 }
 
 .parallaxCard {
@@ -86,4 +87,17 @@ body::-webkit-scrollbar-track {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#experiences {
+    color: var(--c5);
+}
+
+#projects {
+    background-color: var(--c1);
+    color: var(--c5);
+}
+
+#projects h4 {
+    color: var(--c4);
 }
