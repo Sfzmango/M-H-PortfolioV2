@@ -79,6 +79,7 @@ body::-webkit-scrollbar-track {
     border-top: 3px solid var(--c2);
 }
 
+/* parallax #2 on experiences */
 .experiencesBg {
     background: url(../images/background.jpg);
     background-attachment: fixed;
