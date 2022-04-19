@@ -10,6 +10,7 @@
 
 * {
     font-family: 'Montserrat', sans-serif !important;
+    overflow-x: hidden !important;
 }
 
 /* Adds smooth scrolling on the webpage instead of one that is staticky */
