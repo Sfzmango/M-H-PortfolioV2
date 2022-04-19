@@ -1,0 +1,37 @@
+:root {
+    --c1: #181613;
+    --c2: #49111c;
+    --c3: #f2f4f3;
+    --c4: #dbd0c2;
+    --c5: #5e503f;
+
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cus-navbar {
+    background: var(--c1);
+    border-bottom: 5px solid var(--c2);
+}
+
+.cus-navbar-brand {
+    margin: 0% 2% 0% 2%;
+}
+
+.cus-navbar-brand img {
+    width: 80px;
+}
+
+.navbar-nav {
+    padding: 0% 5% 0% 5%;
+}
+
+.navbar-nav a {
+    color: var(--c4);
+}
+
+.logo {
+    width: 30px;
+}
