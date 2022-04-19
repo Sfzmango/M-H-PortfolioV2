@@ -20,7 +20,7 @@ The task that was given was to update a pre-existing portfolio page to with curr
 
 ## <ins> Description of the Page: </ins>
 
-The requested task for this assignment was to create a portfolio for ourselves, the developer with information about ourselves and our current work. The portfolio is to be updated and improved as completed projects go on to showcase current skillsets.
+What is the purpose of the page? This portfolio page is about me, Maung Htike. It acts as like a digital portfolio of my current programming experience and can be used by interested parties to learn more about me and my work from a professional viewpoint.
 
 ## <ins> Remarks: </ins>
 
@@ -46,7 +46,7 @@ Please make sure to download all the respective files that is provided along wit
 
 ## <ins> Site Demonstration: </ins>
 
-![Site Demonstration]()
+![Site Demonstration](./assets/site-demonstration/site-demonstration.gif)
 
 ## <ins> Links: </ins>
 
